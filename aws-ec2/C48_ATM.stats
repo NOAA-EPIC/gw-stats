@@ -1,0 +1,33 @@
+       CYCLE                    TASK                       JOBID               STATE         EXIT STATUS     TRIES      DURATION
+================================================================================================================================
+202103231200            gfs_stage_ic                          50           SUCCEEDED                   0         1          57.0
+202103231200           gfs_fcst_seg0                          51           SUCCEEDED                   0         1         938.0
+202103231200    gfs_atmos_prod_f000-f002                          52           SUCCEEDED                   0         1         135.0
+202103231200    gfs_atmos_prod_f003-f005                          53           SUCCEEDED                   0         1         135.0
+202103231200    gfs_atmos_prod_f006-f008                          54           SUCCEEDED                   0         1         125.0
+202103231200    gfs_atmos_prod_f009-f011                          55           SUCCEEDED                   0         1         121.0
+202103231200    gfs_atmos_prod_f012-f014                          56           SUCCEEDED                   0         1         122.0
+202103231200    gfs_atmos_prod_f015-f017                          57           SUCCEEDED                   0         1         125.0
+202103231200    gfs_atmos_prod_f018-f020                          58           SUCCEEDED                   0         1         115.0
+202103231200    gfs_atmos_prod_f021-f023                          59           SUCCEEDED                   0         1         118.0
+202103231200    gfs_atmos_prod_f024-f026                          60           SUCCEEDED                   0         1         114.0
+202103231200    gfs_atmos_prod_f027-f029                          61           SUCCEEDED                   0         1         116.0
+202103231200    gfs_atmos_prod_f030-f032                          62           SUCCEEDED                   0         1         134.0
+202103231200    gfs_atmos_prod_f033-f035                          63           SUCCEEDED                   0         1         128.0
+202103231200    gfs_atmos_prod_f036-f038                          64           SUCCEEDED                   0         1         116.0
+202103231200    gfs_atmos_prod_f039-f041                          65           SUCCEEDED                   0         1         116.0
+202103231200    gfs_atmos_prod_f042-f044                          66           SUCCEEDED                   0         1         116.0
+202103231200    gfs_atmos_prod_f045-f047                          67           SUCCEEDED                   0         1         130.0
+202103231200    gfs_atmos_prod_f048-f054                          68           SUCCEEDED                   0         1         134.0
+202103231200    gfs_atmos_prod_f057-f063                          69           SUCCEEDED                   0         1         136.0
+202103231200    gfs_atmos_prod_f066-f072                          70           SUCCEEDED                   0         1         134.0
+202103231200    gfs_atmos_prod_f075-f081                          71           SUCCEEDED                   0         1         152.0
+202103231200    gfs_atmos_prod_f084-f090                          72           SUCCEEDED                   0         1         152.0
+202103231200    gfs_atmos_prod_f093-f099                          73           SUCCEEDED                   0         1         140.0
+202103231200    gfs_atmos_prod_f102-f108                          74           SUCCEEDED                   0         1         134.0
+202103231200    gfs_atmos_prod_f111-f114                          75           SUCCEEDED                   0         1         101.0
+202103231200    gfs_atmos_prod_f117-f120                          76           SUCCEEDED                   0         1          89.0
+202103231200             gfs_tracker                          77           SUCCEEDED                   0         1           6.0
+202103231200             gfs_genesis                          78           SUCCEEDED                   0         1         281.0
+202103231200           gfs_arch_vrfy                          79           SUCCEEDED                   0         1          49.0
+202103231200             gfs_cleanup                          80           SUCCEEDED                   0         1           5.0

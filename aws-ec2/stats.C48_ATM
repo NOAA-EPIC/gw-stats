@@ -1,0 +1,11 @@
+Filename: ./C48_ATM.stats
+Stats:
+task, runs, total, average
+        gfs_stage_ic,   1, 57.000000, 57.000000
+       gfs_fcst_seg0,   1, 938.000000, 938.000000
+           gfs_atmos,  25, 3138.000000, 125.520000
+         gfs_tracker,   1, 6.000000, 6.000000
+         gfs_genesis,   1, 281.000000, 281.000000
+       gfs_arch_vrfy,   1, 49.000000, 49.000000
+         gfs_cleanup,   1, 5.000000, 5.000000
+Total cpu hour: 1.2427777777777778
