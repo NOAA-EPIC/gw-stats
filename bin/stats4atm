@@ -1,0 +1,17 @@
+#!/bin/bash
+
+ set -x
+
+ if [ $# -ne 1 ]
+ then
+   xmlfiles=`ls *.xml`
+   xmlitems=(${xmlfiles//./ })
+   casename=${xmlitems[0]}
+ else
+   casename=$1
+ fi
+
+ /lustre/wei/bin/statme ${casename} > ${casename}.stats
+
+ python /lustre/wei/s3.utils/gw-aws/stat4atm.py --workdir . --filename ${casename}.stats > ${casename}.summary
+
