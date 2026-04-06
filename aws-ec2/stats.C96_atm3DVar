@@ -1,35 +1,33 @@
 Filename: ./C96_atm3DVar.stats
 Stats:
 task, runs, total, average
-       gdas_stage_ic,   1, 42.000000, 42.000000
+       gdas_stage_ic,   1, 4.000000, 4.000000
           gdas_fcst_,   3, 855.000000, 285.000000
-          gdas_atmos,  12, 732.000000, 61.000000
-        gdas_cleanup,   1, 9.000000, 9.000000
-            gfs_prep,   1, 106.000000, 106.000000
-            gfs_anal,   1, 1304.000000, 1304.000000
-        gfs_analcalc,   1, 54.000000, 54.000000
-          gfs_sfcanl,   1, 51.000000, 51.000000
-       gfs_atmanlupp,   1, 67.000000, 67.000000
-      gfs_atmanlprod,   1, 60.000000, 60.000000
-           gfs_fcst_,   1, 2190.000000, 2190.000000
-           gfs_atmos,  25, 3409.000000, 136.360000
-         gfs_vminmon,   1, 18.000000, 18.000000
-         gfs_tracker,   1, 6.000000, 6.000000
-         gfs_genesis,   1, 378.000000, 378.000000
-        gfs_metpg2g1,   1, 8.000000, 8.000000
-        gfs_metpg2o1,   1, 7.000000, 7.000000
-        gfs_metppcp1,   1, 5.000000, 5.000000
-       gfs_arch_vrfy,   1, 58.000000, 58.000000
-           gdas_prep,   1, 81.000000, 81.000000
-           gdas_anal,   1, 1623.000000, 1623.000000
-       gdas_analcalc,   1, 53.000000, 53.000000
-         gdas_sfcanl,   1, 26.000000, 26.000000
+          gdas_atmos,  12, 703.000000, 58.583333
+        gdas_cleanup,   1, 11.000000, 11.000000
+            gfs_prep,   1, 120.000000, 120.000000
+            gfs_anal,   1, 1329.000000, 1329.000000
+        gfs_analcalc,   1, 44.000000, 44.000000
+          gfs_sfcanl,   1, 42.000000, 42.000000
+       gfs_atmanlupp,   1, 32.000000, 32.000000
+      gfs_atmanlprod,   1, 52.000000, 52.000000
+           gfs_fcst_,   1, 2189.000000, 2189.000000
+           gfs_atmos,  25, 3262.000000, 130.480000
+         gfs_vminmon,   1, 13.000000, 13.000000
+         gfs_tracker,   1, 9.000000, 9.000000
+         gfs_genesis,   1, 368.000000, 368.000000
+       gfs_arch_vrfy,   1, 61.000000, 61.000000
+         gfs_cleanup,   1, 7.000000, 7.000000
+           gdas_prep,   1, 72.000000, 72.000000
+           gdas_anal,   1, 1607.000000, 1607.000000
+       gdas_analcalc,   1, 14.000000, 14.000000
+         gdas_sfcanl,   1, 24.000000, 24.000000
        gdas_analdiag,   1, 97.000000, 97.000000
-      gdas_atmanlupp,   1, 67.000000, 67.000000
-     gdas_atmanlprod,   1, 58.000000, 58.000000
-        gdas_fit2obs,   1, 4.000000, 4.000000
-        gdas_verfozn,   1, 22.000000, 22.000000
-        gdas_verfrad,   1, 374.000000, 374.000000
+      gdas_atmanlupp,   1, 18.000000, 18.000000
+     gdas_atmanlprod,   1, 50.000000, 50.000000
+        gdas_fit2obs,   1, 5.000000, 5.000000
+        gdas_verfozn,   1, 27.000000, 27.000000
+        gdas_verfrad,   1, 387.000000, 387.000000
         gdas_vminmon,   1, 4.000000, 4.000000
-      gdas_arch_vrfy,   1, 30.000000, 30.000000
-Total cpu hour: 3.277222222222222
+      gdas_arch_vrfy,   1, 5.000000, 5.000000
+Total cpu hour: 3.169722222222222

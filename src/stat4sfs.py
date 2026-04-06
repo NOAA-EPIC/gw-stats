@@ -71,10 +71,14 @@ class StatsFileHandler:
          #print('cname, task, jobid, state, status, tries, duration =', cname, task, jobid, state, status, tries, duration)
 
          #nm = task.find('_mem')
-          for item in ['_mem', '_ensstat', '_stat']:
-              nm = task.find(item)
-              if(nm > 0):
-                  break;
+
+          for item in ['_fcst_', '_goesupp_', '_awips_', '_gempak_', '_wavegempak_', '_ocean', '_ice', '_atmos',
+            '_wavepostsbs', 'gdas_epos', 'gdas_ecen', 'gfs_prep', 'gfs_analcalc', 'gfs_anal', 'gfs_sfcanl',
+            'gfs_atmanlupp', 'gfs_atmanlprod']:
+            nm = task.find(item)
+            if(nm > 0):
+              nm += len(item)
+              break;
           if(nm > 0):
             subtask = task[:nm]
             if(subtask in self.stats.keys()):
@@ -107,13 +111,14 @@ class StatsFileHandler:
             self.stats[subtask]['dead'] = 0.0
 
     print('Stats:')
+    print('task, runs, total, average')
     total_cpu_hour = 0.0
     for task in self.stats.keys():
      #print('task: ', task)
      #print('self.stats[task]: ', self.stats[task])
       if(self.stats[task]['ns']):
         avg = self.stats[task]['succeed']/self.stats[task]['ns']
-        print('task: %20s, number: %3d: succeed: %f, avg: %f' %(task,
+        print('%20s, %3d, %f, %f' %(task,
           self.stats[task]['ns'],
           self.stats[task]['succeed'], avg))
         if(task.find('fcst') >= 0):
@@ -124,7 +129,7 @@ class StatsFileHandler:
         else:
           total_cpu_hour += self.stats[task]['succeed']
       else:
-        print('task: %20s, number: %3d: dead: %f' %(task,
+        print('%20s, %3d, %f' %(task,
           self.stats[task]['nd'],
           self.stats[task]['dead']))
 
