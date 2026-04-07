@@ -74,7 +74,8 @@ class StatsFileHandler:
 
           for item in ['_fcst_', '_goesupp_', '_awips_', '_gempak_', '_wavegempak_', '_ocean', '_ice', '_atmos',
             '_wavepostsbs', 'gdas_epos', 'gdas_ecen', 'gfs_prep', 'gfs_analcalc', 'gfs_anal', 'gfs_sfcanl',
-            'gfs_atmanlupp', 'gfs_atmanlprod']:
+            'gfs_atmanlupp', 'gfs_atmanlprod', 'gdas_cleanup', 'gdas_prep', 'gdas_analcalc', 'gdas_analdiag',
+            'gdas_anal']:
             nm = task.find(item)
             if(nm > 0):
               nm += len(item)

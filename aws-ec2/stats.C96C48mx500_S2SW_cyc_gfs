@@ -1,0 +1,82 @@
+Filename: ./C96C48mx500_S2SW_cyc_gfs.stats
+Stats:
+task, runs, total, average
+       gdas_waveinit,   1, 22.000000, 22.000000
+       gdas_stage_ic,   1, 41.000000, 41.000000
+          gdas_fcst_,   3, 2316.000000, 772.000000
+          gdas_atmos,  30, 1585.000000, 52.833333
+        gdas_cleanup,   1, 8.000000, 8.000000
+   enkfgdas_stage_ic,   1, 41.000000, 41.000000
+    enkfgdas_echgres,   1, 22.000000, 22.000000
+      enkfgdas_fcst_,   6, 1000.000000, 166.666667
+       enkfgdas_epos,  21, 259.000000, 12.333333
+    enkfgdas_cleanup,   3, 28.000000, 9.333333
+            gfs_prep,   1, 114.000000, 114.000000
+            gfs_anal,   1, 1054.000000, 1054.000000
+        gfs_analcalc,   1, 31.000000, 31.000000
+    gfs_prepoceanobs,   1, 34.000000, 34.000000
+  gfs_marinebmatinit,   1, 42.000000, 42.000000
+      gfs_marinebmat,   1, 47.000000, 47.000000
+   gfs_marineanlinit,   1, 5.000000, 5.000000
+    gfs_marineanlvar,   1, 14.000000, 14.000000
+  gfs_marineanlchkpt,   1, 8.000000, 8.000000
+  gfs_marineanlfinal,   1, 20.000000, 20.000000
+          gfs_sfcanl,   1, 23.000000, 23.000000
+         gfs_snowanl,   1, 52.000000, 52.000000
+        gfs_waveinit,   1, 23.000000, 23.000000
+       gfs_atmanlupp,   1, 32.000000, 32.000000
+      gfs_atmanlprod,   1, 43.000000, 43.000000
+           gfs_fcst_,   2, 11635.000000, 5817.500000
+           gfs_ocean,  40, 341.000000, 8.525000
+             gfs_ice,  40, 267.000000, 6.675000
+           gfs_atmos,  50, 6215.000000, 124.300000
+         gfs_vminmon,   1, 3.000000, 3.000000
+         gfs_tracker,   1, 4.000000, 4.000000
+         gfs_genesis,   1, 298.000000, 298.000000
+     gfs_wavepostsbs,  50, 1569.000000, 31.380000
+  gfs_wavepostbndpnt,   1, 550.000000, 550.000000
+gfs_wavepostbndpntbll,   1, 28.000000, 28.000000
+     gfs_wavepostpnt,   1, 332.000000, 332.000000
+        enkfgfs_eobs,   1, 393.000000, 393.000000
+        enkfgfs_eupd,   1, 157.000000, 157.000000
+     enkfgfs_ecen000,   1, 9.000000, 9.000000
+     enkfgfs_ecen001,   1, 9.000000, 9.000000
+     enkfgfs_ecen002,   1, 9.000000, 9.000000
+       enkfgfs_ediag,   1, 104.000000, 104.000000
+enkfgfs_marineanlecen,   1, 30.000000, 30.000000
+    enkfgfs_esnowanl,   1, 62.000000, 62.000000
+        enkfgfs_esfc,   1, 52.000000, 52.000000
+   enkfgfs_earc_vrfy,   1, 3.000000, 3.000000
+     enkfgfs_cleanup,   1, 7.000000, 7.000000
+           gdas_prep,   1, 120.000000, 120.000000
+           gdas_anal,   1, 1738.000000, 1738.000000
+       gdas_analcalc,   1, 34.000000, 34.000000
+   gdas_prepoceanobs,   1, 29.000000, 29.000000
+ gdas_marinebmatinit,   1, 42.000000, 42.000000
+     gdas_marinebmat,   1, 47.000000, 47.000000
+  gdas_marineanlinit,   1, 14.000000, 14.000000
+   gdas_marineanlvar,   1, 14.000000, 14.000000
+ gdas_marineanlchkpt,   1, 14.000000, 14.000000
+ gdas_marineanlfinal,   1, 20.000000, 20.000000
+         gdas_sfcanl,   1, 35.000000, 35.000000
+        gdas_snowanl,   1, 51.000000, 51.000000
+       gdas_analdiag,   1, 107.000000, 107.000000
+      gdas_atmanlupp,   1, 33.000000, 33.000000
+     gdas_atmanlprod,   1, 47.000000, 47.000000
+        gdas_fit2obs,   1, 4.000000, 4.000000
+        gdas_verfozn,   1, 20.000000, 20.000000
+        gdas_verfrad,   1, 309.000000, 309.000000
+        gdas_anlstat,   1, 71.000000, 71.000000
+        gdas_vminmon,   1, 4.000000, 4.000000
+    gdas_wavepostsbs,  20, 318.000000, 15.900000
+    gdas_wavepostpnt,   1, 39.000000, 39.000000
+      gdas_arch_vrfy,   1, 9.000000, 9.000000
+       enkfgdas_eobs,   1, 355.000000, 355.000000
+       enkfgdas_eupd,   1, 142.000000, 142.000000
+       enkfgdas_ecen,   6, 72.000000, 12.000000
+      enkfgdas_ediag,   1, 80.000000, 80.000000
+enkfgdas_marineanlecen,   1, 30.000000, 30.000000
+   enkfgdas_esnowanl,   1, 47.000000, 47.000000
+       enkfgdas_esfc,   1, 58.000000, 58.000000
+  enkfgdas_earc_vrfy,   1, 6.000000, 6.000000
+Total cpu hour: 9.125

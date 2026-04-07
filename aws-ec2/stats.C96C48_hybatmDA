@@ -37,10 +37,8 @@ task, runs, total, average
       gdas_arch_vrfy,   1, 8.000000, 8.000000
        enkfgdas_eobs,   1, 348.000000, 348.000000
        enkfgdas_eupd,   1, 136.000000, 136.000000
-    enkfgdas_ecen000,   1, 10.000000, 10.000000
-    enkfgdas_ecen001,   1, 10.000000, 10.000000
-    enkfgdas_ecen002,   1, 9.000000, 9.000000
+       enkfgdas_ecen,   6, 90.000000, 15.000000
       enkfgdas_ediag,   1, 80.000000, 80.000000
        enkfgdas_esfc,   1, 57.000000, 57.000000
   enkfgdas_earc_vrfy,   1, 6.000000, 6.000000
-Total cpu hour: 3.718888888888889
+Total cpu hour: 3.7358333333333333
