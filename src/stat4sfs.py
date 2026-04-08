@@ -73,9 +73,7 @@ class StatsFileHandler:
          #nm = task.find('_mem')
 
           for item in ['_fcst_', '_goesupp_', '_awips_', '_gempak_', '_wavegempak_', '_ocean', '_ice', '_atmos',
-            '_wavepostsbs', 'gdas_epos', 'gdas_ecen', 'gfs_prep', 'gfs_analcalc', 'gfs_anal', 'gfs_sfcanl',
-            'gfs_atmanlupp', 'gfs_atmanlprod', 'gdas_cleanup', 'gdas_prep', 'gdas_analcalc', 'gdas_analdiag',
-            'gdas_anal']:
+                       '_wavepostsbs', 's_epos', 's_ecen']:
             nm = task.find(item)
             if(nm > 0):
               nm += len(item)
@@ -93,23 +91,37 @@ class StatsFileHandler:
             else:
              #print('cname, task, jobid, state, status, tries, duration =', cname, task, jobid, state, status, tries, duration)
               self.stats[subtask] = {}
-              self.stats[subtask]['ns'] = 0
-              self.stats[subtask]['nd'] = 0
-              self.stats[subtask]['succeed'] = 0.0
-              self.stats[subtask]['dead'] = 0.0
               if(state == 'SUCCEEDED'):
                 self.stats[subtask]['ns'] = 1
                 self.stats[subtask]['succeed'] = float(duration)
+                self.stats[subtask]['nd'] = 0
+                self.stats[subtask]['dead'] = 0.0
               else:
+                self.stats[subtask]['ns'] = 0
+                self.stats[subtask]['succeed'] = 0.0
                 self.stats[subtask]['nd'] = 1
                 self.stats[subtask]['dead'] = float(duration)
           else:
             subtask = task
-            self.stats[subtask] = {}
-            self.stats[subtask]['ns'] = 1
-            self.stats[subtask]['succeed'] = float(duration)
-            self.stats[subtask]['nd'] = 0
-            self.stats[subtask]['dead'] = 0.0
+            if(subtask in self.stats.keys()):
+              if(state == 'SUCCEEDED'):
+                self.stats[subtask]['ns'] += 1
+                self.stats[subtask]['succeed'] += float(duration)
+              else:
+                self.stats[subtask]['nd'] += 1
+                self.stats[subtask]['dead'] += float(duration)
+            else:
+              self.stats[subtask] = {}
+              if(state == 'SUCCEEDED'):
+                self.stats[subtask]['ns'] = 1
+                self.stats[subtask]['succeed'] = float(duration)
+                self.stats[subtask]['nd'] = 0
+                self.stats[subtask]['dead'] = 0.0
+              else:
+                self.stats[subtask]['ns'] = 0
+                self.stats[subtask]['succeed'] = 0.0
+                self.stats[subtask]['nd'] = 1
+                self.stats[subtask]['dead'] = float(duration)
 
     print('Stats:')
     print('task, runs, total, average')

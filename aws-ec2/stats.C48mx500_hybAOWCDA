@@ -1,0 +1,26 @@
+Filename: ./C48mx500_hybAOWCDA.stats
+Stats:
+task, runs, total, average
+       gdas_stage_ic,   1, 22.000000, 22.000000
+          gdas_fcst_,   1, 129.000000
+          gdas_atmos,  10, 606.000000, 60.600000
+        gdas_cleanup,   1, 8.000000, 8.000000
+   enkfgdas_stage_ic,   1, 34.000000, 34.000000
+      enkfgdas_fcst_,   2, 371.000000, 185.500000
+       enkfgdas_epos,   7, 65.000000, 9.285714
+           gdas_prep,   1, 117.000000, 117.000000
+           gdas_anal,   1, 2013.000000, 2013.000000
+   gdas_prepoceanobs,   1, 30.000000, 30.000000
+ gdas_marinebmatinit,   1, 4.000000, 4.000000
+     gdas_marinebmat,   1, 33.000000, 33.000000
+         gdas_sfcanl,   1, 22.000000, 22.000000
+       gdas_analdiag,   1, 120.000000, 120.000000
+        gdas_verfozn,   1, 22.000000, 22.000000
+        gdas_verfrad,   1, 472.000000, 472.000000
+        gdas_vminmon,   1, 5.000000, 5.000000
+       enkfgdas_eobs,   1, 506.000000, 506.000000
+       enkfgdas_eupd,   1, 231.000000, 231.000000
+      enkfgdas_ediag,   1, 129.000000, 129.000000
+enkfgdas_marineanlletkf,   1, 36.000000, 36.000000
+enkfgdas_marineanlecen,   1, 31.000000, 31.000000
+Total cpu hour: 1.3547222222222222

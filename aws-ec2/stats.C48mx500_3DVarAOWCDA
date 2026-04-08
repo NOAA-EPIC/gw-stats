@@ -1,0 +1,56 @@
+Filename: ./C48mx500_3DVarAOWCDA.stats
+Stats:
+task, runs, total, average
+       gdas_waveinit,   2, 54.000000, 27.000000
+       gdas_stage_ic,   1, 34.000000, 34.000000
+          gdas_fcst_,   2, 599.000000, 299.500000
+          gdas_atmos,   8, 432.000000, 54.000000
+        gdas_cleanup,   2, 38.000000, 19.000000
+            gfs_prep,   1, 111.000000, 111.000000
+            gfs_anal,   1, 1149.000000, 1149.000000
+        gfs_analcalc,   1, 18.000000, 18.000000
+    gfs_prepoceanobs,   1, 31.000000, 31.000000
+  gfs_marinebmatinit,   1, 35.000000, 35.000000
+      gfs_marinebmat,   1, 45.000000, 45.000000
+   gfs_marineanlinit,   1, 22.000000, 22.000000
+    gfs_marineanlvar,   1, 50.000000, 50.000000
+  gfs_marineanlchkpt,   1, 6.000000, 6.000000
+  gfs_marineanlfinal,   1, 22.000000, 22.000000
+          gfs_sfcanl,   1, 21.000000, 21.000000
+        gfs_waveinit,   1, 24.000000, 24.000000
+       gfs_atmanlupp,   1, 37.000000, 37.000000
+      gfs_atmanlprod,   1, 48.000000, 48.000000
+           gfs_fcst_,   1, 1445.000000, 1445.000000
+           gfs_ocean,  20, 243.000000, 12.150000
+             gfs_ice,  20, 249.000000, 12.450000
+           gfs_atmos,  25, 3266.000000, 130.640000
+         gfs_vminmon,   1, 4.000000, 4.000000
+         gfs_tracker,   1, 3.000000, 3.000000
+         gfs_genesis,   1, 285.000000, 285.000000
+     gfs_wavepostsbs,  25, 884.000000, 35.360000
+  gfs_wavepostbndpnt,   1, 563.000000, 563.000000
+gfs_wavepostbndpntbll,   1, 28.000000
+     gfs_wavepostpnt,   1, 238.000000, 238.000000
+           gdas_prep,   1, 118.000000, 118.000000
+           gdas_anal,   1, 1722.000000, 1722.000000
+       gdas_analcalc,   1, 12.000000, 12.000000
+   gdas_prepoceanobs,   1, 23.000000, 23.000000
+ gdas_marinebmatinit,   1, 35.000000, 35.000000
+     gdas_marinebmat,   1, 45.000000, 45.000000
+  gdas_marineanlinit,   1, 22.000000, 22.000000
+   gdas_marineanlvar,   1, 49.000000, 49.000000
+ gdas_marineanlchkpt,   1, 7.000000, 7.000000
+ gdas_marineanlfinal,   1, 23.000000, 23.000000
+         gdas_sfcanl,   1, 29.000000, 29.000000
+       gdas_analdiag,   1, 120.000000, 120.000000
+      gdas_atmanlupp,   1, 32.000000, 32.000000
+     gdas_atmanlprod,   1, 48.000000, 48.000000
+        gdas_fit2obs,   1, 3.000000, 3.000000
+        gdas_verfozn,   1, 24.000000, 24.000000
+        gdas_verfrad,   1, 517.000000, 517.000000
+        gdas_anlstat,   1, 33.000000, 33.000000
+        gdas_vminmon,   1, 10.000000, 10.000000
+    gdas_wavepostsbs,  10, 151.000000, 15.100000
+    gdas_wavepostpnt,   1, 30.000000, 30.000000
+      gdas_arch_vrfy,   1, 5.000000, 5.000000
+Total cpu hour: 3.615
