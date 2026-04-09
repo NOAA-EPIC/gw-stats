@@ -1,0 +1,45 @@
+Filename: ./C96C48_ufsgsi_hybatmDA.stats
+Stats:
+task, runs, total, average
+       gdas_stage_ic,   1, 5.000000, 5.000000
+          gdas_fcst_,   3, 726.000000, 242.000000
+          gdas_atmos,  30, 1796.000000, 59.866667
+        gdas_cleanup,   3, 22.000000, 7.333333
+   enkfgdas_stage_ic,   1, 43.000000, 43.000000
+    enkfgdas_echgres,   3, 48.000000, 16.000000
+      enkfgdas_fcst_,   6, 821.000000, 136.833333
+       enkfgdas_epos,  21, 191.000000, 9.095238
+    enkfgdas_cleanup,   3, 24.000000, 8.000000
+            gfs_prep,   1, 189.000000, 189.000000
+      gfs_atmanlinit,   1, 12.000000, 12.000000
+       gfs_atmanlvar,   1, 269.000000, 269.000000
+    gfs_atmanlfv3inc,   1, 9.000000, 9.000000
+     gfs_atmanlfinal,   1, 19.000000, 19.000000
+        gfs_analcalc,   1, 20.000000, 20.000000
+          gfs_sfcanl,   1, 14.000000, 14.000000
+       gfs_atmanlupp,   1, 19.000000, 19.000000
+      gfs_atmanlprod,   1, 51.000000, 51.000000
+           gfs_fcst_,   1, 2191.000000, 2191.000000
+           gfs_atmos,  25, 3217.000000, 128.680000
+         gfs_tracker,   1, 9.000000, 9.000000
+         gfs_genesis,   1, 324.000000, 324.000000
+       gfs_arch_vrfy,   1, 23.000000, 23.000000
+         gfs_cleanup,   1, 9.000000, 9.000000
+           gdas_prep,   2, 401.000000, 200.500000
+     gdas_atmanlinit,   2, 89.000000, 44.500000
+      gdas_atmanlvar,   2, 628.000000, 314.000000
+   gdas_atmanlfv3inc,   2, 24.000000, 12.000000
+    gdas_atmanlfinal,   2, 24.000000, 12.000000
+       gdas_analcalc,   2, 76.000000, 38.000000
+         gdas_sfcanl,   2, 32.000000, 16.000000
+      gdas_atmanlupp,   2, 69.000000, 34.500000
+     gdas_atmanlprod,   2, 115.000000, 57.500000
+        gdas_anlstat,   2, 18.000000, 9.000000
+      gdas_arch_vrfy,   2, 19.000000, 9.500000
+       enkfgdas_eobs,   2, 950.000000, 475.000000
+       enkfgdas_eupd,   2, 328.000000, 164.000000
+       enkfgdas_ecen,   2, 21.000000, 10.500000
+      enkfgdas_ediag,   2, 210.000000, 105.000000
+       enkfgdas_esfc,   2, 89.000000, 44.500000
+  enkfgdas_earc_vrfy,   2, 10.000000, 5.000000
+Total cpu hour: 3.653888888888889

@@ -1,0 +1,17 @@
+Filename: ./C48_gsienkf_atmDA.stats
+Stats:
+task, runs, total, average
+   enkfgdas_stage_ic,   1, 41.000000, 41.000000
+      enkfgdas_fcst_,   6, 852.000000, 142.000000
+       enkfgdas_epos,  21, 179.000000, 8.523810
+    enkfgdas_cleanup,   1, 6.000000, 6.000000
+           gdas_prep,   2, 317.000000, 158.500000
+ gdas_prepatmanlbias,   2, 70.000000, 35.000000
+       enkfgdas_eobs,   2, 1164.000000, 582.000000
+       enkfgdas_eupd,   2, 397.000000, 198.500000
+       enkfgdas_ecen,   2, 75.000000, 37.500000
+      enkfgdas_ediag,   2, 227.000000, 113.500000
+       enkfgdas_esfc,   2, 91.000000, 45.500000
+enkfgdas_earc_tars_00,   1, 8.000000
+enkfgdas_earc_tars_01,   1, 8.000000
+Total cpu hour: 0.9497222222222222
