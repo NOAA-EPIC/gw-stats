@@ -1,0 +1,8 @@
+Filename: ./C48_ATM.stats.container
+Stats:
+task, runs, total, average
+        gfs_stage_ic,   1, 29.000000, 29.000000
+           gfs_fcst_,   1, 1064.000000, 1064.000000
+           gfs_atmos,  25, 6176.000000, 247.040000
+         gfs_cleanup,   1, 23.000000, 23.000000
+Total cpu hour: 2.0255555555555556

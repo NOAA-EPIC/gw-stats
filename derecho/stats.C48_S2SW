@@ -1,0 +1,14 @@
+Filename: ./C48_S2SW.stats
+Stats:
+task, runs, total, average
+        gfs_stage_ic,   1, 22.000000, 22.000000
+        gfs_waveinit,   1, 41.000000, 41.000000
+           gfs_fcst_,   1, 544.000000, 544.000000
+           gfs_atmos,  25, 6856.000000, 274.240000
+           gfs_ocean,  20, 563.000000, 28.150000
+             gfs_ice,  20, 585.000000, 29.250000
+     gfs_wavepostsbs,  25, 1978.000000, 79.120000
+  gfs_wavepostbndpnt,   1, 427.000000, 427.000000
+gfs_wavepostbndpntbll,   1, 91.000000, 91.000000
+     gfs_wavepostpnt,   1, 0.000000
+Total cpu hour: 3.085277777777778

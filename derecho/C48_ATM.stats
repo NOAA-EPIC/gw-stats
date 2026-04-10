@@ -1,0 +1,30 @@
+       CYCLE                    TASK                       JOBID               STATE         EXIT STATUS     TRIES      DURATION
+================================================================================================================================
+202103231200            gfs_stage_ic                     3764067           SUCCEEDED                   0         2          25.0
+202103231200           gfs_fcst_seg0                     3765390           SUCCEEDED                   0         8        1058.0
+202103231200    gfs_atmos_prod_f000-f002                     3765660           SUCCEEDED                   0         1         244.0
+202103231200    gfs_atmos_prod_f003-f005                     3765658           SUCCEEDED                   0         1         233.0
+202103231200    gfs_atmos_prod_f006-f008                     3765659           SUCCEEDED                   0         1         247.0
+202103231200    gfs_atmos_prod_f009-f011                     3765661           SUCCEEDED                   0         1         268.0
+202103231200    gfs_atmos_prod_f012-f014                     3765662           SUCCEEDED                   0         1         263.0
+202103231200    gfs_atmos_prod_f015-f017                     3765664           SUCCEEDED                   0         1         256.0
+202103231200    gfs_atmos_prod_f018-f020                     3765665           SUCCEEDED                   0         1         251.0
+202103231200    gfs_atmos_prod_f021-f023                     3765667           SUCCEEDED                   0         1         348.0
+202103231200    gfs_atmos_prod_f024-f026                     3765663           SUCCEEDED                   0         1         262.0
+202103231200    gfs_atmos_prod_f027-f029                     3765666           SUCCEEDED                   0         1         258.0
+202103231200    gfs_atmos_prod_f030-f032                     3765668           SUCCEEDED                   0         1         262.0
+202103231200    gfs_atmos_prod_f033-f035                     3765669           SUCCEEDED                   0         1         256.0
+202103231200    gfs_atmos_prod_f036-f038                     3765670           SUCCEEDED                   0         1         263.0
+202103231200    gfs_atmos_prod_f039-f041                     3765671           SUCCEEDED                   0         1         239.0
+202103231200    gfs_atmos_prod_f042-f044                     3765672           SUCCEEDED                   0         1         247.0
+202103231200    gfs_atmos_prod_f045-f047                     3765673           SUCCEEDED                   0         1         257.0
+202103231200    gfs_atmos_prod_f048-f054                     3765674           SUCCEEDED                   0         1         306.0
+202103231200    gfs_atmos_prod_f057-f063                     3765675           SUCCEEDED                   0         1         310.0
+202103231200    gfs_atmos_prod_f066-f072                     3765676           SUCCEEDED                   0         1         264.0
+202103231200    gfs_atmos_prod_f075-f081                     3765677           SUCCEEDED                   0         1         310.0
+202103231200    gfs_atmos_prod_f084-f090                     3765678           SUCCEEDED                   0         1         306.0
+202103231200    gfs_atmos_prod_f093-f099                     3765679           SUCCEEDED                   0         1         262.0
+202103231200    gfs_atmos_prod_f102-f108                     3765700           SUCCEEDED                   0         1         333.0
+202103231200    gfs_atmos_prod_f111-f114                     3765981           SUCCEEDED                   0         1         240.0
+202103231200    gfs_atmos_prod_f117-f120                     3765982           SUCCEEDED                   0         1         222.0
+202103231200             gfs_cleanup    druby://10.14.20.188:42811          SUBMITTING                   -         0           0.0
