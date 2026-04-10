@@ -1,0 +1,33 @@
+Filename: ./C96_atm3DVar.stats
+Stats:
+task, runs, total, average
+       gdas_stage_ic,   1, 4.000000, 4.000000
+          gdas_fcst_,   3, 855.000000, 285.000000
+          gdas_atmos,  12, 703.000000, 58.583333
+        gdas_cleanup,   1, 11.000000, 11.000000
+            gfs_prep,   1, 120.000000, 120.000000
+            gfs_anal,   1, 1329.000000, 1329.000000
+        gfs_analcalc,   1, 44.000000, 44.000000
+          gfs_sfcanl,   1, 42.000000, 42.000000
+       gfs_atmanlupp,   1, 32.000000, 32.000000
+      gfs_atmanlprod,   1, 52.000000, 52.000000
+           gfs_fcst_,   1, 2189.000000, 2189.000000
+           gfs_atmos,  25, 3262.000000, 130.480000
+         gfs_vminmon,   1, 13.000000, 13.000000
+         gfs_tracker,   1, 9.000000, 9.000000
+         gfs_genesis,   1, 368.000000, 368.000000
+       gfs_arch_vrfy,   1, 61.000000, 61.000000
+         gfs_cleanup,   1, 7.000000, 7.000000
+           gdas_prep,   1, 72.000000, 72.000000
+           gdas_anal,   1, 1607.000000, 1607.000000
+       gdas_analcalc,   1, 14.000000, 14.000000
+         gdas_sfcanl,   1, 24.000000, 24.000000
+       gdas_analdiag,   1, 97.000000, 97.000000
+      gdas_atmanlupp,   1, 18.000000, 18.000000
+     gdas_atmanlprod,   1, 50.000000, 50.000000
+        gdas_fit2obs,   1, 5.000000, 5.000000
+        gdas_verfozn,   1, 27.000000, 27.000000
+        gdas_verfrad,   1, 387.000000, 387.000000
+        gdas_vminmon,   1, 4.000000, 4.000000
+      gdas_arch_vrfy,   1, 5.000000, 5.000000
+Total cpu hour: 3.169722222222222

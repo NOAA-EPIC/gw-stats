@@ -1,0 +1,18 @@
+Filename: ./C96_gcafs_cycled_noDA.stats
+Stats:
+task, runs, total, average
+      gcdas_stage_ic,   1, 37.000000, 37.000000
+gcdas_prep_emissions,   3, 251.000000, 83.666667
+         gcdas_fcst_,   3, 974.000000, 324.666667
+         gcdas_atmos,  12, 453.000000, 37.750000
+gcafs_prep_emissions,   1, 252.000000, 252.000000
+         gcafs_fcst_,   1, 3296.000000, 3296.000000
+         gcafs_atmos,  25, 1331.000000, 53.240000
+     gcafs_arch_vrfy,   1, 80.000000, 80.000000
+       gcafs_cleanup,   1, 6.000000, 6.000000
+    gcdas_offlineanl,   2, 430.000000, 215.000000
+        gcdas_sfcanl,   2, 30.000000, 15.000000
+     gcdas_arch_vrfy,   2, 79.000000, 39.500000
+       gcdas_cleanup,   2, 13.000000, 6.500000
+         gcdas_fetch,   2, 11.000000
+Total cpu hour: 2.008888888888889

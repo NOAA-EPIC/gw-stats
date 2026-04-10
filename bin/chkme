@@ -1,0 +1,43 @@
+#!/bin/bash
+
+runname=unknown
+cycle=202402240000
+task=gdas_atmanlvar
+
+while getopts 'rct:h' opt; do
+  case "$opt" in
+    r)
+      runname="$OPTARG"
+      ;;
+
+    c)
+      cycle="$OPTARG"
+      ;;
+
+    t)
+      task="$OPTARG"
+      ;;
+
+    ?|h)
+      echo "Usage: $(basename $0) [-r run-case-name] [-c cycle] [-t task] [-h]"
+      exit 1
+      ;;
+  esac
+done
+shift "$(($OPTIND -1))"
+
+ if [ "${runname}" == "unknown" ]
+ then
+      # Define your string and delimiter
+      strvar=`ls *.xml`
+      delimiter="."
+
+      # Set IFS to the delimiter, read into array
+      IFS="$delimiter" read -ra ADDR <<< "$strvar"
+
+      # Access elements
+      runname="${ADDR[0]}"
+ fi
+
+ rocotocheck -d ${runname}.db -w ${runname}.xml -c ${cycle} -t ${task}
+

@@ -1,0 +1,55 @@
+       CYCLE                    TASK                       JOBID               STATE         EXIT STATUS     TRIES      DURATION
+================================================================================================================================
+202402231800       enkfgdas_stage_ic                        2004           SUCCEEDED                   0         1          41.0
+202402231800    enkfgdas_fcst_mem001                        2009           SUCCEEDED                   0         1         153.0
+202402231800    enkfgdas_fcst_mem002                        2010           SUCCEEDED                   0         1         153.0
+202402231800        enkfgdas_epos000                        2011           SUCCEEDED                   0         1          13.0
+202402231800        enkfgdas_epos001                        2012           SUCCEEDED                   0         1          10.0
+202402231800        enkfgdas_epos002                        2013           SUCCEEDED                   0         1          10.0
+202402231800        enkfgdas_epos003                        2014           SUCCEEDED                   0         1          10.0
+202402231800        enkfgdas_epos004                        2015           SUCCEEDED                   0         1          10.0
+202402231800        enkfgdas_epos005                        2016           SUCCEEDED                   0         1          10.0
+202402231800        enkfgdas_epos006                        2017           SUCCEEDED                   0         1          10.0
+202402231800        enkfgdas_cleanup                        2018           SUCCEEDED                   0         1           6.0
+202402231800    enkfgdas_earc_tars_00                           -                   -                   -         -             -
+202402231800    enkfgdas_earc_tars_01                           -                   -                   -         -             -
+================================================================================================================================
+202402240000               gdas_prep                        2019           SUCCEEDED                   0         1         170.0
+202402240000     gdas_prepatmanlbias                        2020           SUCCEEDED                   0         1          35.0
+202402240000           enkfgdas_eobs                        2022           SUCCEEDED                   0         1         562.0
+202402240000           enkfgdas_eupd                        2024           SUCCEEDED                   0         1         205.0
+202402240000        enkfgdas_ecen000                        2025           SUCCEEDED                   0         1          38.0
+202402240000          enkfgdas_ediag                        2023           SUCCEEDED                   0         1         113.0
+202402240000    enkfgdas_fcst_mem001                        2029           SUCCEEDED                   0         1         128.0
+202402240000    enkfgdas_fcst_mem002                        2030           SUCCEEDED                   0         1         153.0
+202402240000        enkfgdas_epos000                        2033           SUCCEEDED                   0         1           8.0
+202402240000        enkfgdas_epos001                        2035           SUCCEEDED                   0         1           7.0
+202402240000        enkfgdas_epos002                        2036           SUCCEEDED                   0         1           7.0
+202402240000        enkfgdas_epos003                        2037           SUCCEEDED                   0         1           7.0
+202402240000        enkfgdas_epos004                        2038           SUCCEEDED                   0         1           7.0
+202402240000        enkfgdas_epos005                        2039           SUCCEEDED                   0         1           7.0
+202402240000        enkfgdas_epos006                        2040           SUCCEEDED                   0         1           7.0
+202402240000           enkfgdas_esfc                        2026           SUCCEEDED                   0         1          45.0
+202402240000        enkfgdas_cleanup                           -                   -                   -         -             -
+202402240000    enkfgdas_earc_tars_00                        2044                DEAD                  15         2           8.0
+202402240000    enkfgdas_earc_tars_01                        2045                DEAD                  15         2           8.0
+================================================================================================================================
+202402240600               gdas_prep                        2043           SUCCEEDED                   0         1         147.0
+202402240600     gdas_prepatmanlbias                        2021           SUCCEEDED                   0         1          35.0
+202402240600           enkfgdas_eobs                        2046           SUCCEEDED                   0         1         602.0
+202402240600           enkfgdas_eupd                        2050           SUCCEEDED                   0         1         192.0
+202402240600        enkfgdas_ecen000                        2051           SUCCEEDED                   0         1          37.0
+202402240600          enkfgdas_ediag                        2048           SUCCEEDED                   0         1         114.0
+202402240600    enkfgdas_fcst_mem001                        2053           SUCCEEDED                   0         1         127.0
+202402240600    enkfgdas_fcst_mem002                        2054           SUCCEEDED                   0         1         138.0
+202402240600        enkfgdas_epos000                        2055           SUCCEEDED                   0         1           8.0
+202402240600        enkfgdas_epos001                        2056           SUCCEEDED                   0         1           8.0
+202402240600        enkfgdas_epos002                        2057           SUCCEEDED                   0         1           8.0
+202402240600        enkfgdas_epos003                        2058           SUCCEEDED                   0         1           8.0
+202402240600        enkfgdas_epos004                        2059           SUCCEEDED                   0         1           8.0
+202402240600        enkfgdas_epos005                        2060           SUCCEEDED                   0         1           8.0
+202402240600        enkfgdas_epos006                        2061           SUCCEEDED                   0         1           8.0
+202402240600           enkfgdas_esfc                        2052           SUCCEEDED                   0         1          46.0
+202402240600        enkfgdas_cleanup                           -                   -                   -         -             -
+202402240600    enkfgdas_earc_tars_00                           -                   -                   -         -             -
+202402240600    enkfgdas_earc_tars_01                           -                   -                   -         -             -

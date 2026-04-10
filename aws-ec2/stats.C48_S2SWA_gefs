@@ -1,0 +1,16 @@
+Filename: ./C48_S2SWA_gefs.stats
+Stats:
+task, runs, total, average
+       gefs_stage_ic,   1, 38.000000, 38.000000
+      gefs_wave_init,   1, 31.000000, 31.000000
+ gefs_prep_emissions,   1, 252.000000, 252.000000
+           gefs_fcst,   6, 4180.000000, 696.666667
+     gefs_atmos_prod,  63, 2251.000000, 35.730159
+          gefs_atmos,  21, 391.000000, 18.619048
+     gefs_ocean_prod,  15, 386.000000, 25.733333
+       gefs_ice_prod,  15, 383.000000, 25.533333
+    gefs_wavepostsbs,  75, 970.000000, 12.933333
+           gefs_wave,  26, 141.000000, 5.423077
+      gefs_arch_vrfy,   1, 3.000000, 3.000000
+        gefs_cleanup,   1, 7.000000, 7.000000
+Total cpu hour: 2.5091666666666668

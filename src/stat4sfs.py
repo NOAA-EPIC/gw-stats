@@ -71,10 +71,13 @@ class StatsFileHandler:
          #print('cname, task, jobid, state, status, tries, duration =', cname, task, jobid, state, status, tries, duration)
 
          #nm = task.find('_mem')
-          for item in ['_mem', '_ensstat', '_stat']:
-              nm = task.find(item)
-              if(nm > 0):
-                  break;
+
+          for item in ['_fcst_', '_goesupp_', '_awips_', '_gempak_', '_wavegempak_', '_ocean', '_ice', '_atmos',
+                       '_wavepostsbs', 's_epos', 's_ecen']:
+            nm = task.find(item)
+            if(nm > 0):
+              nm += len(item)
+              break;
           if(nm > 0):
             subtask = task[:nm]
             if(subtask in self.stats.keys()):
@@ -88,32 +91,47 @@ class StatsFileHandler:
             else:
              #print('cname, task, jobid, state, status, tries, duration =', cname, task, jobid, state, status, tries, duration)
               self.stats[subtask] = {}
-              self.stats[subtask]['ns'] = 0
-              self.stats[subtask]['nd'] = 0
-              self.stats[subtask]['succeed'] = 0.0
-              self.stats[subtask]['dead'] = 0.0
               if(state == 'SUCCEEDED'):
                 self.stats[subtask]['ns'] = 1
                 self.stats[subtask]['succeed'] = float(duration)
+                self.stats[subtask]['nd'] = 0
+                self.stats[subtask]['dead'] = 0.0
               else:
+                self.stats[subtask]['ns'] = 0
+                self.stats[subtask]['succeed'] = 0.0
                 self.stats[subtask]['nd'] = 1
                 self.stats[subtask]['dead'] = float(duration)
           else:
             subtask = task
-            self.stats[subtask] = {}
-            self.stats[subtask]['ns'] = 1
-            self.stats[subtask]['succeed'] = float(duration)
-            self.stats[subtask]['nd'] = 0
-            self.stats[subtask]['dead'] = 0.0
+            if(subtask in self.stats.keys()):
+              if(state == 'SUCCEEDED'):
+                self.stats[subtask]['ns'] += 1
+                self.stats[subtask]['succeed'] += float(duration)
+              else:
+                self.stats[subtask]['nd'] += 1
+                self.stats[subtask]['dead'] += float(duration)
+            else:
+              self.stats[subtask] = {}
+              if(state == 'SUCCEEDED'):
+                self.stats[subtask]['ns'] = 1
+                self.stats[subtask]['succeed'] = float(duration)
+                self.stats[subtask]['nd'] = 0
+                self.stats[subtask]['dead'] = 0.0
+              else:
+                self.stats[subtask]['ns'] = 0
+                self.stats[subtask]['succeed'] = 0.0
+                self.stats[subtask]['nd'] = 1
+                self.stats[subtask]['dead'] = float(duration)
 
     print('Stats:')
+    print('task, runs, total, average')
     total_cpu_hour = 0.0
     for task in self.stats.keys():
      #print('task: ', task)
      #print('self.stats[task]: ', self.stats[task])
       if(self.stats[task]['ns']):
         avg = self.stats[task]['succeed']/self.stats[task]['ns']
-        print('task: %20s, number: %3d: succeed: %f, avg: %f' %(task,
+        print('%20s, %3d, %f, %f' %(task,
           self.stats[task]['ns'],
           self.stats[task]['succeed'], avg))
         if(task.find('fcst') >= 0):
@@ -124,7 +142,7 @@ class StatsFileHandler:
         else:
           total_cpu_hour += self.stats[task]['succeed']
       else:
-        print('task: %20s, number: %3d: dead: %f' %(task,
+        print('%20s, %3d, %f' %(task,
           self.stats[task]['nd'],
           self.stats[task]['dead']))
 

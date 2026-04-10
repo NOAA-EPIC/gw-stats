@@ -1,0 +1,44 @@
+Filename: ./C96C48_hybatmDA.stats
+Stats:
+task, runs, total, average
+       gdas_stage_ic,   1, 45.000000, 45.000000
+          gdas_fcst_,   3, 873.000000, 291.000000
+          gdas_atmos,  30, 1720.000000, 57.333333
+        gdas_cleanup,   1, 13.000000, 13.000000
+   enkfgdas_stage_ic,   1, 45.000000, 45.000000
+    enkfgdas_echgres,   1, 7.000000, 7.000000
+      enkfgdas_fcst_,   6, 1116.000000, 186.000000
+       enkfgdas_epos,  21, 387.000000, 18.428571
+    enkfgdas_cleanup,   1, 9.000000, 9.000000
+            gfs_prep,   1, 115.000000, 115.000000
+            gfs_anal,   1, 634.000000, 634.000000
+        gfs_analcalc,   1, 42.000000, 42.000000
+          gfs_sfcanl,   1, 26.000000, 26.000000
+       gfs_atmanlupp,   1, 35.000000, 35.000000
+      gfs_atmanlprod,   1, 58.000000, 58.000000
+           gfs_fcst_,   1, 2182.000000, 2182.000000
+           gfs_atmos,  25, 3282.000000, 131.280000
+         gfs_vminmon,   1, 3.000000, 3.000000
+         gfs_tracker,   1, 6.000000, 6.000000
+         gfs_genesis,   1, 359.000000, 359.000000
+       gfs_arch_vrfy,   1, 34.000000, 34.000000
+         gfs_cleanup,   1, 7.000000, 7.000000
+           gdas_prep,   1, 79.000000, 79.000000
+           gdas_anal,   1, 1006.000000, 1006.000000
+       gdas_analcalc,   1, 42.000000, 42.000000
+         gdas_sfcanl,   1, 32.000000, 32.000000
+       gdas_analdiag,   1, 101.000000, 101.000000
+      gdas_atmanlupp,   1, 19.000000, 19.000000
+     gdas_atmanlprod,   1, 48.000000, 48.000000
+        gdas_fit2obs,   1, 4.000000, 4.000000
+        gdas_verfozn,   1, 21.000000, 21.000000
+        gdas_verfrad,   1, 371.000000, 371.000000
+        gdas_vminmon,   1, 3.000000, 3.000000
+      gdas_arch_vrfy,   1, 8.000000, 8.000000
+       enkfgdas_eobs,   1, 348.000000, 348.000000
+       enkfgdas_eupd,   1, 136.000000, 136.000000
+       enkfgdas_ecen,   6, 90.000000, 15.000000
+      enkfgdas_ediag,   1, 80.000000, 80.000000
+       enkfgdas_esfc,   1, 57.000000, 57.000000
+  enkfgdas_earc_vrfy,   1, 6.000000, 6.000000
+Total cpu hour: 3.7358333333333333

@@ -1,0 +1,10 @@
+Filename: ./C96mx100_S2S.stats
+Stats:
+task, runs, total, average
+        sfs_stage_ic,   1, 50.000000, 50.000000
+           sfs_fcst_,   9, 21535.000000, 2392.777778
+           sfs_atmos,  28, 1001.000000, 35.750000
+           sfs_ocean,  18, 795.000000, 44.166667
+             sfs_ice,  18, 725.000000, 40.277778
+         sfs_cleanup,   1, 12.000000, 12.000000
+Total cpu hour: 6.6994444444444445
