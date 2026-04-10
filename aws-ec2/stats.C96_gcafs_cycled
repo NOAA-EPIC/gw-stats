@@ -1,0 +1,26 @@
+Filename: ./C96_gcafs_cycled.stats
+Stats:
+task, runs, total, average
+      gcdas_stage_ic,   1, 37.000000, 37.000000
+   gcdas_aeroanlgenb,   3, 191.000000, 63.666667
+gcdas_prep_emissions,   3, 245.000000, 81.666667
+         gcdas_fcst_,   3, 1029.000000, 343.000000
+         gcdas_atmos,  12, 442.000000, 36.833333
+gcafs_prep_emissions,   1, 249.000000, 249.000000
+         gcafs_fcst_,   1, 3304.000000, 3304.000000
+         gcafs_atmos,  25, 1290.000000, 51.600000
+     gcafs_arch_vrfy,   1, 83.000000, 83.000000
+       gcafs_cleanup,   1, 9.000000, 9.000000
+    gcdas_offlineanl,   2, 453.000000, 226.500000
+        gcdas_sfcanl,   2, 31.000000, 15.500000
+   gcdas_aeroanlinit,   2, 69.000000, 34.500000
+    gcdas_aeroanlvar,   2, 50.000000, 25.000000
+  gcdas_aeroanlfinal,   2, 30.000000, 15.000000
+          gcdas_prep,   2, 10.000000, 5.000000
+      gcdas_analcalc,   2, 48.000000, 24.000000
+     gcdas_atmanlupp,   2, 69.000000, 34.500000
+    gcdas_atmanlprod,   2, 66.000000, 33.000000
+       gcdas_anlstat,   2, 68.000000, 34.000000
+     gcdas_arch_vrfy,   2, 75.000000, 37.500000
+       gcdas_cleanup,   2, 14.000000, 7.000000
+Total cpu hour: 2.1838888888888888
