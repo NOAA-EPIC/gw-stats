@@ -11,7 +11,7 @@
    casename=$1
  fi
 
- /lustre/wei/bin/statme ${casename} > ${casename}.stats
+ /gpfs/csfs1/work/huangwei/src/gw-stats/bin/statme ${casename} > ${casename}.stats
 
- python /lustre/wei/s3.utils/gw-aws/stat4sfs.py --workdir . --filename ${casename}.stats > ${casename}.summary
+ python /gpfs/csfs1/work/huangwei/src/gw-stats/bin/stat4sfs.py --workdir . --filename ${casename}.stats > stats.${casename}
 

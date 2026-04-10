@@ -1,0 +1,38 @@
+#!/bin/bash
+
+
+ module --force purge
+ module load ncarenv/24.12
+ module use /glade/work/epicufsrt/contrib/derecho/modulefiles
+ module load rocoto/1.3.7
+
+
+ if [ $# -ne 1 ]
+ then
+   casename=C48_ATM
+   if [ -f C48_ATM.xml ]; then
+      casename=C48_ATM
+   elif [ -f C48_S2SW.xml ]; then
+      casename=C48_S2SW
+   else
+      # Define your string and delimiter
+      strvar=`ls *.xml`
+      delimiter="."
+
+      # Set IFS to the delimiter, read into array
+      IFS="$delimiter" read -ra ADDR <<< "$strvar"
+
+      # Access elements
+      casename="${ADDR[0]}"
+    # echo "${ADDR[1]}" # banana
+
+      # Loop through all elements
+    # for i in "${ADDR[@]}"; do
+    #     echo "Item: $i"
+    # done
+   fi
+ else
+   casename=$1
+ fi
+
+ rocotostat -d ${casename}.db -w ${casename}.xml
