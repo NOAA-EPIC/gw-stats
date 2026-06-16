@@ -1,0 +1,28 @@
+Filename: ./C48_S2SW.stats
+Stats:
+task:         gfs_stage_ic, number:   1: succeed: 12.000000, avg: 12.000000
+task:         gfs_waveinit, number:   1: succeed: 25.000000, avg: 25.000000
+task:        gfs_fcst_seg0, number:   1: succeed: 1046.000000, avg: 1046.000000
+task:            gfs_atmos, number:  25: succeed: 4901.000000, avg: 196.040000
+task:          gfs_tracker, number:   1: succeed: 32.000000, avg: 32.000000
+task:          gfs_genesis, number:   1: succeed: 368.000000, avg: 368.000000
+task:            gfs_ocean, number:  20: succeed: 238.000000, avg: 11.900000
+task:              gfs_ice, number:  20: succeed: 237.000000, avg: 11.850000
+task:      gfs_wavepostsbs, number:  25: succeed: 1365.000000, avg: 54.600000
+task:   gfs_wavepostbndpnt, number:   1: succeed: 677.000000, avg: 677.000000
+task: gfs_wavepostbndpntbll, number:   1: succeed: 94.000000, avg: 94.000000
+task:      gfs_wavepostpnt, number:   1: succeed: 229.000000, avg: 229.000000
+task:    gfs_arch_tar_gfsa, number:   1: succeed: 37.000000, avg: 37.000000
+task:    gfs_arch_tar_gfsb, number:   1: succeed: 25.000000, avg: 25.000000
+task: gfs_arch_tar_gfs_flux, number:   1: succeed: 15.000000, avg: 15.000000
+task: gfs_arch_tar_gfs_netcdfb, number:   1: succeed: 21.000000, avg: 21.000000
+task: gfs_arch_tar_gfs_pgrb2b, number:   1: succeed: 27.000000, avg: 27.000000
+task: gfs_arch_tar_gfswave, number:   1: succeed: 24.000000, avg: 24.000000
+task: gfs_arch_tar_ocean_6hravg, number:   1: succeed: 14.000000, avg: 14.000000
+task: gfs_arch_tar_ocean_native, number:   1: succeed: 15.000000, avg: 15.000000
+task: gfs_arch_tar_gfs_flux_1p00, number:   1: succeed: 19.000000, avg: 19.000000
+task: gfs_arch_tar_ice_6hravg, number:   1: succeed: 19.000000, avg: 19.000000
+task: gfs_arch_tar_ice_native, number:   1: succeed: 19.000000, avg: 19.000000
+task:        gfs_arch_vrfy, number:   1: succeed: 29.000000, avg: 29.000000
+task:          gfs_cleanup, number:   1: succeed: 13.000000, avg: 13.000000
+Total cpu hour: 2.6391666666666667

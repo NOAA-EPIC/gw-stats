@@ -1,0 +1,28 @@
+Filename: ./C768_S2SW.stats
+Stats:
+task:         gfs_stage_ic, number:   1: succeed: 13.000000, avg: 13.000000
+task:         gfs_waveinit, number:   1: succeed: 142.000000, avg: 142.000000
+task:        gfs_fcst_seg0, number:   1: succeed: 5430.000000, avg: 5430.000000
+task:            gfs_atmos, number:  25: succeed: 7202.000000, avg: 288.080000
+task:          gfs_tracker, number:   1: succeed: 55.000000, avg: 55.000000
+task:          gfs_genesis, number:   1: succeed: 662.000000, avg: 662.000000
+task:            gfs_ocean, number:  20: succeed: 910.000000, avg: 45.500000
+task:              gfs_ice, number:  20: succeed: 343.000000, avg: 17.150000
+task:      gfs_wavepostsbs, number:  25: succeed: 1693.000000, avg: 67.720000
+task:   gfs_wavepostbndpnt, number:   1: succeed: 923.000000, avg: 923.000000
+task: gfs_wavepostbndpntbll, number:   1: succeed: 143.000000, avg: 143.000000
+task:      gfs_wavepostpnt, number:   1: succeed: 447.000000, avg: 447.000000
+task:    gfs_arch_tar_gfsa, number:   1: succeed: 62.000000, avg: 62.000000
+task:    gfs_arch_tar_gfsb, number:   1: succeed: 26.000000, avg: 26.000000
+task: gfs_arch_tar_gfs_flux, number:   1: succeed: 31.000000, avg: 31.000000
+task: gfs_arch_tar_gfs_netcdfb, number:   1: succeed: 1209.000000, avg: 1209.000000
+task: gfs_arch_tar_gfs_pgrb2b, number:   1: succeed: 34.000000, avg: 34.000000
+task: gfs_arch_tar_gfswave, number:   1: succeed: 161.000000, avg: 161.000000
+task: gfs_arch_tar_ocean_6hravg, number:   1: succeed: 45.000000, avg: 45.000000
+task: gfs_arch_tar_ocean_native, number:   1: succeed: 17.000000, avg: 17.000000
+task: gfs_arch_tar_gfs_flux_1p00, number:   1: succeed: 20.000000, avg: 20.000000
+task: gfs_arch_tar_ice_6hravg, number:   1: succeed: 35.000000, avg: 35.000000
+task: gfs_arch_tar_ice_native, number:   1: succeed: 20.000000, avg: 20.000000
+task:        gfs_arch_vrfy, number:   1: succeed: 382.000000, avg: 382.000000
+task:          gfs_cleanup, number:   1: succeed: 13.000000, avg: 13.000000
+Total cpu hour: 5.560555555555555

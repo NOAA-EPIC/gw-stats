@@ -11,7 +11,7 @@
    casename=$1
  fi
 
- /lustre/wei/bin/statme ${casename} > ${casename}.stats
+#/lustre/wei/bin/statme ${casename} > ${casename}.stats
 
- python /lustre/wei/s3.utils/gw-aws/stat4atm.py --workdir . --filename ${casename}.stats > ${casename}.summary
+ python ../src/stat4atm.py --workdir . --filename ${casename}.stats > ${casename}.summary
 

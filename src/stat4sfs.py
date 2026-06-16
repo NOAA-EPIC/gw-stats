@@ -73,7 +73,7 @@ class StatsFileHandler:
          #nm = task.find('_mem')
 
           for item in ['_fcst_', '_goesupp_', '_awips_', '_gempak_', '_wavegempak_', '_ocean', '_ice', '_atmos',
-                       '_wavepostsbs', 's_epos', 's_ecen']:
+                       '_wavepostsbs', 's_epos', 's_ecen', 'wave_stat']:
             nm = task.find(item)
             if(nm > 0):
               nm += len(item)
