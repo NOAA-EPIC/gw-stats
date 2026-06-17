@@ -1,0 +1,17 @@
+Filename: ./C48_S2SW.stats
+Stats:
+task:         gfs_stage_ic, number:   1: succeed: 23.000000, avg: 23.000000
+task:         gfs_waveinit, number:   1: succeed: 31.000000, avg: 31.000000
+task:        gfs_fcst_seg0, number:   1: succeed: 1190.000000, avg: 1190.000000
+task:            gfs_atmos, number:  25: succeed: 25004.000000, avg: 1000.160000
+task:          gfs_tracker, number:   1: succeed: 42.000000, avg: 42.000000
+task:          gfs_genesis, number:   1: succeed: 426.000000, avg: 426.000000
+task:            gfs_ocean, number:  20: succeed: 232.000000, avg: 11.600000
+task:              gfs_ice, number:  20: succeed: 270.000000, avg: 13.500000
+task:      gfs_wavepostsbs, number:  25: succeed: 1314.000000, avg: 52.560000
+task:   gfs_wavepostbndpnt, number:   1: succeed: 226.000000, avg: 226.000000
+task: gfs_wavepostbndpntbll, number:   1: succeed: 75.000000, avg: 75.000000
+task:      gfs_wavepostpnt, number:   1: succeed: 124.000000, avg: 124.000000
+task:        gfs_arch_vrfy, number:   1: succeed: 53.000000, avg: 53.000000
+task:          gfs_cleanup, number:   1: succeed: 10.000000, avg: 10.000000
+Total cpu hour: 8.061111111111112

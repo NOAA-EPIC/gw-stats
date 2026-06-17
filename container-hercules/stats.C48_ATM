@@ -1,0 +1,10 @@
+Filename: ./C48_ATM.stats
+Stats:
+task:         gfs_stage_ic, number:   1: succeed: 23.000000, avg: 23.000000
+task:        gfs_fcst_seg0, number:   1: succeed: 1183.000000, avg: 1183.000000
+task:            gfs_atmos, number:  25: succeed: 25153.000000, avg: 1006.120000
+task:          gfs_tracker, number:   1: succeed: 42.000000, avg: 42.000000
+task:          gfs_genesis, number:   1: succeed: 422.000000, avg: 422.000000
+task:        gfs_arch_vrfy, number:   1: succeed: 53.000000, avg: 53.000000
+task:          gfs_cleanup, number:   1: succeed: 9.000000, avg: 9.000000
+Total cpu hour: 7.468055555555556
